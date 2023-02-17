@@ -11,7 +11,7 @@
 </head>
 <body>
     
-    <nav class="navbar navbar-expand-md navbar-light py-3">
+    <nav class="navbar navbar-expand-md navbar-light py-3 fixed-top">
         <div class="container">
             <a href="#" class="navbar-brand" >SarvinStyle</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -216,20 +216,55 @@
                 بیشتر بخوانید
               </a>
             </div>
-            <div class="col-md">
+            <div class="col-md P-5">
               <img src="./image/Work & Office Illustrations.png" alt="" class="img-fluid">
             </div>
           </div>
         </div>
       </section>
 
-      <section id="contantme">
+      <section id="contactme" class="bg-light p-5">
         <div class="container">
-          <h2 class="text-center">تماس با من+</h2>
-          
+          <h2 class="text-center">تماس با من</h2>
+          <div class="row laign-items-center justify-content-between">
+            <div class="col-md">
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">آدرس ایمیل</label>
+              <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">پیام </label>
+              <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="d-grid">
+              <button class="btn btn-primary">ارسال پیام</button>
+            </div>
+
+            </div>
+            <div class="col-md p-5">
+              <div class="list-group list-group-flush">
+                <a href="#" class="list-group-item bg-light">
+                  <i class="fa fa-youtube h1 x-4"></i>
+                  کانال یوتیوب سروین استایل
+                </a>
+                <a href="#" class="list-group-item">
+                  <i class="fa fa-instagram h1 x-4"></i>
+                صفحه انستاگرام سروین استایل
+                </a>
+                <a href="#" class="list-group-item">
+                  <i class="fa fa-facebook h1 x-4"></i>
+                  صفحه فیسبوک سروین استایل
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
+      <!-- footer -->
 
+      <footer class="bg-warning text-center p-2">
+        <p class="lead">Copyright &copy;2023 |SarvinStyle</p>
+      </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
